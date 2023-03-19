@@ -28,11 +28,11 @@ class WelcomeViewController: UIViewController {
 
         //animateTitleLabel()
        
-        titleLabel.text = "⚡️FlashChat"
+        titleLabel.text = K.appName
     }
     
     func animateTitleLabel() {
-        let titleStr = "⚡️FlashChat"
+        let titleStr = K.appName
         titleLabel.text = ""
         var charIndex: Double = 0
         titleStr.forEach { char in
